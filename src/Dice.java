@@ -1,2 +1,10 @@
-package PACKAGE_NAME;public class Dice {
+
+
+public class Dice {
+
+    public Dice() {}
+
+    public static int roll() {
+        return (int) (Math.random() * 6) + 1;
+    }
 }
